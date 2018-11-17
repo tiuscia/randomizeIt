@@ -2,12 +2,14 @@
   "name": "randomize-it",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://tiuscia.github.io/randomizeIt",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
   },
-  "main": "./dist/tiu.common.js",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "vue": "^2.5.17"
   },
   "devDependencies": {
@@ -23,13 +25,6 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
   ],
   "license": "MIT"
 }
