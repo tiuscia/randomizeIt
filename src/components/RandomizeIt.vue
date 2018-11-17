@@ -1,5 +1,5 @@
 <template>
-  <div class="string">
+  <div class="randomize-text">
     {{this.randomized}}
   </div>
 </template>
