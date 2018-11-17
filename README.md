@@ -1,6 +1,6 @@
 # RandomizeIt
 
-RandomizeIt is Vue component. With this component you can create a string animation and generate random chars.
+RandomizeIt is a Vue component. With this component you can create a string animation and generate random chars.
 
 ```
 <RandomizeIt fromInput="something" toInput="somethingelse" startOnLoad maxSpeed="100" minSpeed="200">
@@ -11,7 +11,7 @@ RandomizeIt is Vue component. With this component you can create a string animat
 - `maxSpeed` and `minSpeed` are optional. By default the animation speed is between 120-200.
 - if you don't use `startOnLoad`, the animation is triggered when `toInput` props changes.
 
-###Demo
+### Demo
 
 [RandomizeIt DEMO](https://tiuscia.github.io/randomizeIt/)
 
